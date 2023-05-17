@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: old;
+    src: url(./assets/my-empire-wont-fall-font/MyEmpireWontFallRegular-9YoY0.ttf);
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+.calc{
+    z-index: 1000;
+    background-image: linear-gradient(rgb(7, 7, 7),rgb(15, 15, 15));
+    border: 3px solid  rgb(247, 41, 103);
+     
+
+}
+input{
+    border: none!important;
+    
+    background-image: linear-gradient(rgb(31, 29, 29),rgb(27, 27, 27));
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+.form{
+    background-color: rgb(20, 19, 19);
+    
+    
+
+}
+.form-1{
+    background-image: linear-gradient(rgb(7, 7, 7),rgb(15, 15, 15));
+   
+    border-radius: 10px;
+
+}
+.form-1:hover{
+    background-color:rgb(73, 68, 68) ;
+}
+label{
+    font-weight: 500;
+    color: rgb(247, 41, 103);
+   font-size: 15px!important;
+  
+
+}
+    
+
+    .h{
+       
+        color: rgb(247, 41, 103);
+        
+        
+    }
+    button{
+       
+        padding: 4px;
+        background-color:  rgb(177, 23, 69) ;
+        border: 1px solid  rgb(177, 23, 69);
+        border-radius: 5px;
+        font-size: 20
+        px;
+        color: white;
+        font-weight: 500;
+       
+
+    }
+    
+    .results{
+        font-size: 16px!important;
+        
+    }
+    h1{
+        color: rgb(247, 41, 103);
+        
+        border-bottom: 1px solid  rgb(247, 41, 103);
+    
+    }
+    .col-1{
+        margin-left: -100px;
+        color: rgb(247, 41, 103);
+       
+    }
+    .result{
+        background-image: linear-gradient(rgb(7, 7, 7),rgb(15, 15, 15));
+        border: 3px solid  rgb(247, 41, 103);
+        border-radius: 5px;
+        
+    }
+    
+    .cal{
+        background-image: linear-gradient(rgb(39, 39, 39),rgb(39, 39, 39));
+        width: 110px;
+        height: 100px;
+        border-radius: 10px;
+        
+    
+    }
+    
+    .cal .child{
+        background-color: black;
+        border-radius: 50%;
+        width: 60px;
+       height: 60px;
+       color: rgb(247, 41, 103) ;
+
+    }
+    
+    h3{
+        color: rgb(247, 41, 103) ;
+        margin-top: -50px;
+       
+       
+    }
+    .s{
+        color: rgb(247, 41, 103) ; 
+        text-align: center;
+        font-size: 16px;
+    }
+    .name{
+        width: 100%!important;
+        height: 60px;
+        background-image:linear-gradient(90deg,rgb(194, 7, 7) 2%, orange 6%, yellow 12%,rgb(62, 212, 62) 12%, rgb(70, 185, 70) 38%,yellow 38%, yellow 58%,rgb(245, 138, 66) 78% ,rgb(226, 78, 33) 98% ,rgb(160, 32, 32) 100%); ;
+    }
+    .name2{
+        margin-top: 5px;
+        width: 100%!important;
+        height: 15px;
+        background-image:linear-gradient(90deg,rgb(194, 7, 7) 2%,orange 2%, orange 6%,yellow 6%, yellow 12%,rgb(62, 212, 62) 12%, rgb(62, 212, 62) 38%,yellow 38%, yellow 58%,orange 58%,orange 78% ,rgb(226, 78, 33) 78%,rgb(226, 78, 33) 98% ,rgb(160, 32, 32) 98%,rgb(160, 32, 32) 100%); ;
+    }
+     p{
+        font-size: 10px;
+        line-height: -10!important;
+        margin-bottom: 2px;
+       
+    }
+    .parent{
+
+        background-color: rgb(19, 18, 18);
+        color: rgb(247, 41, 103) ;
+    }
+    .range{
+       
+       background-color:  rgb(20, 20, 20);
+    }
+    .b,.i{
+        border: 1px solid  rgb(247, 41, 103) ;
+    }
+    .bb,.ii{
+        color: rgb(233, 125, 157) ;
+    }
+    h4,h5{
+        color: rgb(233, 125, 157) ; 
+    }
+   h4{
+    font-size: 18px;
+   }
+    .red{
+        color: red;
+    }
+    .orange{
+        color: orangered;
+    }
+    .yellow{
+        color: yellow;
+    }
+    .green{
+        color: green;
+    }
+    .overred{
+        color: rgb(156, 22, 22);
+    }
+    .btns{
+        
+        background-color:  rgb(177, 23, 69) ;
+        border: 1px solid  rgb(177, 23, 69);
+        font-weight: 500;
+        
+    }
+    .thin{ 
+            background-image: linear-gradient(rgb(7, 7, 7),rgb(15, 15, 15));
+             border: 3px solid  rgb(247, 41, 103);
+             display: none;
+    }
+    .fat{
+        background-image: linear-gradient(rgb(7, 7, 7),rgb(15, 15, 15));
+             border: 3px solid  rgb(247, 41, 103);
+             display: none;
+    }
+    .thin  p{
+        font-size: 18px;
+        color: rgb(248, 197, 218);
+    }
+    .under{
+        font-size: 30px!important;
+        color:  rgb(247, 41, 103) !important;
+        font-weight: bold;
+    
+    }
+
+    .fat p{
+        font-size: 18px;
+        color: rgb(248, 197, 218);
+    }
+    .normal{
+        background-image: linear-gradient(rgb(7, 7, 7),rgb(15, 15, 15));
+        border: 3px solid  rgb(247, 41, 103);
+        display: none;
+    }
+    .normal p{
+        font-size: 18px;
+        color: rgb(248, 197, 218);
+       
+    }
+
+    .graph{
+        position: relative;
+        background-color: gainsboro;
+    }
+    .arrow{
+        position: absolute !important;
+        width: 40px!important;
+        height: 130%;
+        top: 0!important;
+        left: -20px!important;
+        transition: all 1.5s;
+        
+    }
+    .notice{
+        font-size: 25px!important;
+        font-weight: bold;
+    }
+    .bi-arrow-left-circle{
+        color: rgb(211, 112, 141) !important;
+        font-size: 30px!important;
+    }
+    .bi-arrow-repeat{
+        cursor: pointer;
+        margin-top: -50px;
+    }

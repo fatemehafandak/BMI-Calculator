@@ -1,5 +1,5 @@
 # bmi-calculator
-- [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
+- [Demo Project](https://fatemehafandak.github.io/bmi-calculator/)
 - Developed by fateme afandak
 - Technologies Used - Html , css , js 
 - Role - Frontend
